@@ -1,0 +1,32 @@
+@import url("//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
+.login-block{
+    background: #62de7d;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #00ff22, #ff0000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #35d0ff, #002ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+float:left;
+width:100%;
+padding: 26.8vh;
+}
+
+/* color del form de login*/
+.banner-sec{background:url(https://images.pexels.com/photos/3803517/pexels-photo-3803517.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)  no-repeat left bottom; background-size:cover; min-height:500px; border-radius: 0 10px 10px 0; padding:0;}
+.container{background:rgb(255, 255, 255); border-radius: 10px; box-shadow:15px 20px 0px rgba(0,0,0,0.1);}
+.login-sec{padding: 50px 30px; position:relative;}
+
+/* corazon*/
+.login-sec .copy-text{position:absolute; width:80%; bottom:20px; font-size:13px; text-align:center;}
+.login-sec .copy-text i{color:#ff5e00;}
+.login-sec .copy-text a{color:#E36262;}
+.login-sec h2{margin-bottom:30px; font-weight:800; font-size:30px; color: #32d0f8;}
+/* linea abajo del login*/
+.login-sec h2:after{content:" "; width:100px; height:5px; background:#ffffff; display:block; margin-top:20px; border-radius:3px; margin-left:auto;margin-right:auto}
+/* boton submit */
+.btn-login{background: linear-gradient(to bottom, #00f7ff, #0919f5)}
+.banner-text{width:70%; position:absolute; bottom:40px; padding-left:20px;}
+
+/* letras de la imagen*/
+.banner-text h2{color:#fff; font-weight:600;}
+/* linea abajo de la imagen*/
+.banner-text h2:after{content:" "; width:100px; height:5px; background:rgb(4, 0, 255); display:block; margin-top:20px; border-radius:3px;}
+/* texto de la imagen*/
+.banner-text p{color:rgb(255, 255, 255);}
